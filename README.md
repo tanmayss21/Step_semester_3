@@ -4,6 +4,33 @@ Semester 3 projects, assignments, and programming practice work.
 ## Date: 01-11-2026
 
 **Today's Work:**
+- Completed Session 8 (Week 8: Object-Oriented Design & System Modeling) Java programming questions.
+- Solved class problems and assignment problems:
+  - 5 Class Problems in `object_oriented_design.class_problems`:
+    - `VehicleRentalSystem.java`: Implemented vehicle rental system with availability tracking, polymorphic vehicle category pricing (Sedan, SUV, Truck), and vehicle return handling.
+    - `EmployeeLeaveRequestWorkflow.java`: Modeled leave request workflow across employee categories (FullTime, PartTime, Contractor) with valid state transitions (Pending -> Approved/Rejected) and regression guards.
+    - `OnlineExaminationSystem.java`: Designed online exam architecture with multiple question types (MCQ, True/False, Short Answer), self-evaluation scoring, and immutable submission answer locks.
+    - `HotelBookingSystem.java`: Managed room reservation overlap checking, category pricing rules (StandardRoom, DeluxeRoom), and deadline-enforced cancellations.
+    - `PaymentProcessingSystem.java`: Created shopping checkout module with payment method abstractions (CreditCard, PayPal), empty-order validation, and transaction-driven order status updates.
+  - 5 Assignment Problems in `object_oriented_design.assigment_problems`:
+    - `HostelLaundryQueue.java`: Modeled hostel washing machine booking system with wash type abstractions (Quick, Normal, Heavy), busy/free status protection, and cycle completion workflows.
+    - `AssignmentSubmissionPortal.java`: Implemented college submission portal with category-specific late submission penalties (Coding 10%/day, Written 20%/day) and post-grading resubmission blocks.
+    - `CampusPremiereTicketCounter.java`: Built movie ticket booking system with category-based seat pricing (Regular, Premium, Recliner), 6-seat limit, duplicate booking guards, and cancellation seat release.
+    - `FitZoneMembershipDesk.java`: Designed gym membership subscription system with discount plan rules (Monthly, Quarterly, Annual), status lifecycle (Active, Frozen, Expired), and check-in access control.
+    - `CampusNoticeBroadcaster.java`: Built notice broadcasting module with target department filtering, notice validation, and polymorphic notification delivery (Email, SMS, App).
+- Organized Java files into topic-based packages (`object_oriented_design.class_problems` and `object_oriented_design.assigment_problems`).
+- Compiled and tested all solutions against sample inputs and boundary cases.
+- Pushed solutions to feature/week_8.
+
+**Next Session Plan:**
+- Continue with the next Java programming session (Week 9).
+
+**Issues Faced:**
+- None. All 10 solutions compiled and tested cleanly with exact expected outputs.
+
+## Date: 01-11-2026
+
+**Today's Work:**
 - Completed Session 7 (Week 7: Abstract Classes, Interfaces & Polymorphism) Java programming questions.
 - Solved class problems and assignment problems:
   - 5 Class Problems in `abstraction.class_problems`:
