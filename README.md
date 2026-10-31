@@ -4,6 +4,33 @@ Semester 3 projects, assignments, and programming practice work.
 ## Date: 01-11-2026
 
 **Today's Work:**
+- Completed Session 7 (Week 7: Abstract Classes, Interfaces & Polymorphism) Java programming questions.
+- Solved class problems and assignment problems:
+  - 5 Class Problems in `abstraction.class_problems`:
+    - `Toy.java`: Abstract Toy class with abstract `makeSound()`, static counter assigning `toyId` (`TOY-1001`), and concrete subclasses `ToyCar` and `ToyRobot`.
+    - `Printable.java`: Common `Printable` interface with `printLabel()`, implemented by unrelated classes `PackageBox` and `Invoice`, with polymorphic `printAll()`.
+    - `Instrument.java`: Multilevel inheritance with abstract `Instrument`, concrete `StringInstrument`, and `Violin` using `super.play()` method call chaining.
+    - `KitchenTool.java`: Abstract `KitchenTool` class with JavaBean validated `speedLevel` (1-5 range check), `Washable` interface, and `Blender` implementation.
+    - `DeliveryNote.java`: Abstract `DeliveryNote` class with compile-time overloaded `confirmDelivery(String signature)`, concrete subclasses `ParcelNote` and `LetterNote`, and polymorphic `logAll()`.
+  - 5 Assignment Problems in `abstraction.assigment_problems`:
+    - `Ringable.java`: `Ringable` interface with `ring()`, implemented by independent device classes `AlarmClock` and `Doorbell`, with polymorphic `ringAll()`.
+    - `ArtPiece.java`: Abstract `ArtPiece` class with shared static `pieceId` counter and abstract `describe()` implemented distinctly by `Painting` and `Sculpture`.
+    - `GardenTool.java`: Multilevel class hierarchy (`GardenTool` -> `CuttingTool` -> `Pruner`) with abstract `use()` method and incremental `super.use()` message expansion.
+    - `ClassroomDevice.java`: Abstract `ClassroomDevice` class combined with `Chargeable` interface featuring overloaded `charge()` methods in `Tablet`.
+    - `Drone.java`: Abstract `Drone` class, selective `Trackable` interface implementation by `DeliveryDrone` and independent `GroundRobot`, with dynamic `instanceof` inspection in `getLocationIfTrackable()`.
+- Organized Java files into topic-based packages (`abstraction.class_problems` and `abstraction.assigment_problems`).
+- Compiled and tested all solutions against sample inputs and boundary cases.
+- Pushed solutions to feature/week_7.
+
+**Next Session Plan:**
+- Continue with the next Java programming session (Week 8).
+
+**Issues Faced:**
+- None. All 10 solutions compiled and tested cleanly with exact expected outputs.
+
+## Date: 01-11-2026
+
+**Today's Work:**
 - Completed Session 6 (Week 6: Inheritance, Polymorphism & Membership Hierarchy) Java programming questions.
 - Solved class problems and assignment problems:
   - 5 Class Problems in `inheritance.class_problems`:
