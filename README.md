@@ -4,7 +4,7 @@ Semester 3 projects, assignments, and programming practice work.
 ## Date: 01-11-2026
 
 **Today's Work:**
-- Completed Session 6 (Week 6: Access Modifiers, Encapsulation & Object Modeling) Java programming questions.
+- Completed Session 5 (Week 5: Access Modifiers, Encapsulation & Object Modeling) Java programming questions.
 - Solved class problems and assignment problems:
   - 5 Class Problems in `encapsulation.class_problems`:
     - `MovieTicketVisibilityChecker.java`: Validated Java visibility rules for SAME_CLASS, SAME_PACKAGE, and DIFFERENT_PACKAGE across access levels with batch summarization.
@@ -20,10 +20,10 @@ Semester 3 projects, assignments, and programming practice work.
     - `LoanReceipt.java`: Constructed immutable loan receipts with defensive array copying, with-style bookId corrections, static initialization block in `CirculationLedger`, and null-safe batch circulation processing using `instanceof`.
 - Organized Java files into topic-based packages (`encapsulation.class_problems` and `encapsulation.assigment_problems`).
 - Compiled and tested all solutions against sample inputs and boundary cases.
-- Pushed solutions to feature/week_6.
+- Pushed solutions to feature/week_5.
 
 **Next Session Plan:**
-- Continue with the next Java programming session (Week 7).
+- Continue with the next Java programming session (Week 6).
 
 **Issues Faced:**
 - None. All 10 solutions compiled and tested cleanly with exact expected outputs.
