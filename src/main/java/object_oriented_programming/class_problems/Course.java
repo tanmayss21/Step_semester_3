@@ -1,5 +1,11 @@
 package object_oriented_programming.class_problems;
 
+/**
+ * Problem M3: Overloaded Constructors for a Course
+ * 
+ * Implements constructor overloading and chaining via this(...)
+ * for courses with and without a separate laboratory component.
+ */
 public class Course {
     String code;
     String title;
@@ -18,14 +24,14 @@ public class Course {
     }
 
     public int totalCredits() {
-        return credits + labCredits;
+        return this.credits + this.labCredits;
     }
 
     public static void main(String[] args) {
-        Course c1 = new Course("21CSC201J", "Data Structures", 4);
-        Course c2 = new Course("21CSC205L", "DSA Lab", 3, 1);
+        Course theoryCourse = new Course("21CSC201J", "Data Structures", 4);
+        Course labCourse = new Course("21CSC205L", "DSA Lab", 3, 1);
 
-        System.out.println(c1.code + " total credits: " + c1.totalCredits());
-        System.out.println(c2.code + " total credits: " + c2.totalCredits());
+        System.out.println(theoryCourse.code + " total credits: " + theoryCourse.totalCredits());
+        System.out.println(labCourse.code + " total credits: " + labCourse.totalCredits());
     }
 }

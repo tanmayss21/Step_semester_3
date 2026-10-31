@@ -1,5 +1,11 @@
 package object_oriented_programming.assigment_problems;
 
+/**
+ * Problem M3: Overloaded Constructors for an Employee
+ * 
+ * Implements constructor overloading and this(...) chaining to support
+ * both permanent employees and newly joined interns without code duplication.
+ */
 public class EmployeeProfile {
     String empId;
     String empName;
@@ -19,7 +25,7 @@ public class EmployeeProfile {
     }
 
     public void printProfile() {
-        System.out.println(empId + " | " + empName + " | Rs " + salary + " | Intern: " + isIntern);
+        System.out.println(this.empId + " | " + this.empName + " | Rs " + this.salary + " | Intern: " + this.isIntern);
     }
 
     public static void main(String[] args) {

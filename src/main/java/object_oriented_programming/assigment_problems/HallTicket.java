@@ -1,5 +1,11 @@
 package object_oriented_programming.assigment_problems;
 
+/**
+ * Problem M4: Reference Copies and a Shared Exam Hall Ticket
+ * 
+ * Verifies object identity vs reference copying by mutating through an
+ * alias variable and testing reference equality (==).
+ */
 public class HallTicket {
     String studentName;
     int seatNumber;

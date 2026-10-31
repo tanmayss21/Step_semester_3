@@ -1,5 +1,11 @@
 package object_oriented_programming.class_problems;
 
+/**
+ * Problem M5: Instance vs Static: Splitting a Class Correctly
+ * 
+ * Separates instance state (name, attendance) from shared static
+ * data (collegeName, studentCount) and static access methods.
+ */
 public class Student {
     String name;
     int attendance;

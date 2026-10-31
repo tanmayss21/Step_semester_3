@@ -1,5 +1,11 @@
 package object_oriented_programming.class_problems;
 
+/**
+ * Problem M1: From Parallel Arrays to a Class - Library Inventory / Student Placements
+ * 
+ * Replaces parallel arrays (names, companies, packages) with an OOP class
+ * encapsulating placement data for individual students.
+ */
 public class PlacementRecord {
     String studentName;
     String company;
@@ -12,17 +18,17 @@ public class PlacementRecord {
     }
 
     public void printRecord() {
-        System.out.println(studentName + " -> " + company + " @ " + packageLpa + " LPA");
+        System.out.println(this.studentName + " -> " + this.company + " @ " + this.packageLpa + " LPA");
     }
 
     public static void main(String[] args) {
-        PlacementRecord[] records = {
+        PlacementRecord[] studentRecords = {
             new PlacementRecord("Ravi", "TCS", 4.5),
             new PlacementRecord("Anitha", "Zoho", 6.2),
             new PlacementRecord("Karthik", "Infosys", 4.0)
         };
 
-        for (PlacementRecord record : records) {
+        for (PlacementRecord record : studentRecords) {
             record.printRecord();
         }
     }

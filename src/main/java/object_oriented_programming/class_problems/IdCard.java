@@ -1,5 +1,11 @@
 package object_oriented_programming.class_problems;
 
+/**
+ * Problem M4: Reference Copies and a Shared ID Card
+ * 
+ * Demonstrates the distinction between reference copying (aliasing)
+ * and independent object creation using == equality.
+ */
 public class IdCard {
     String name;
     int booksIssued;

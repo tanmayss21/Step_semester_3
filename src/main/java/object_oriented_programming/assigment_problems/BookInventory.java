@@ -1,5 +1,11 @@
 package object_oriented_programming.assigment_problems;
 
+/**
+ * Problem M1: From Parallel Arrays to a Class - Library Inventory
+ * 
+ * Replaces parallel arrays (titles, authors, copiesAvailable) with
+ * an array of BookInventory objects processed in a single loop.
+ */
 public class BookInventory {
     String title;
     String author;
@@ -12,18 +18,18 @@ public class BookInventory {
     }
 
     public void printEntry() {
-        System.out.println(title + " by " + author + " - " + copiesAvailable + " copies available");
+        System.out.println(this.title + " by " + this.author + " - " + this.copiesAvailable + " copies available");
     }
 
     public static void main(String[] args) {
-        BookInventory[] inventory = {
+        BookInventory[] books = {
             new BookInventory("Clean Code", "Robert C. Martin", 3),
             new BookInventory("Effective Java", "Joshua Bloch", 5),
             new BookInventory("Refactoring", "Martin Fowler", 0),
             new BookInventory("Design Patterns", "GoF", 2)
         };
 
-        for (BookInventory book : inventory) {
+        for (BookInventory book : books) {
             book.printEntry();
         }
     }

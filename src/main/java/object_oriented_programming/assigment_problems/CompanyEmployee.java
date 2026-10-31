@@ -1,5 +1,11 @@
 package object_oriented_programming.assigment_problems;
 
+/**
+ * Problem M5: Instance vs Static: Splitting an Employee Class Correctly
+ * 
+ * Separates instance variables (empName, salary) from shared class-level
+ * static fields (companyName, employeeCount) and static display methods.
+ */
 public class CompanyEmployee {
     String empName;
     double salary;
