@@ -4,6 +4,33 @@ Semester 3 projects, assignments, and programming practice work.
 ## Date: 01-11-2026
 
 **Today's Work:**
+- Completed Session 6 (Week 6: Inheritance, Polymorphism & Membership Hierarchy) Java programming questions.
+- Solved class problems and assignment problems:
+  - 5 Class Problems in `inheritance.class_problems`:
+    - `LibraryMember.java`: Implemented base LibraryMember class with validated memberId constructor, borrow counters, fine recording, and `enrollBatch()` trial processor.
+    - `HonorsStudentMember.java`: Multilevel inheritance subclass adding bonus borrow limits, `classifyGeneration()` instanceof checks, and polymorphic `getTotalBooksBorrowed()`.
+    - `StudentMember.java`: Direct subclass extending LibraryMember, overriding `chargeFine()` to halve late fines via `super.chargeFine()`, and defensive fine history copying.
+    - `WeeklyCirculationReport.java`: Assembled formatted circulation announcements with StringBuilder and instanceof-guarded safe downcasts reaching student course details.
+    - `FacultyMember.java`: Hierarchical subclass of LibraryMember, shared static memberNumber counter, character-based renewal code validator, and null-safe `processNightlyAudit()` aggregation.
+  - 5 Assignment Problems in `inheritance.assigment_problems`:
+    - `GymMember.java`: Implemented base GymMember class with length and whitespace validation, attendance tracking, fee payments, and `signUpBatch()` trial registration.
+    - `EliteMember.java`: Multilevel inheritance subclass extending PremiumMember with reserved locker, `classifyGeneration()` hierarchy classifier, and polymorphic `getTotalSessionsAttended()`.
+    - `PremiumMember.java`: Single inheritance subclass extending GymMember, overriding `chargeLateFee()` with 50% discount delegation to `super.chargeLateFee()`, and defensive history return.
+    - `AttendanceAnnouncer.java`: Generated batch attendance text with StringBuilder and instanceof-guarded safe downcasts reaching trainer assignments.
+    - `GroupClassMember.java`: Hierarchical subclass extending GymMember, shared static counter, character-based referral code validator, and null-safe `processWeeklyCheckIn()` aggregation.
+- Organized Java files into topic-based packages (`inheritance.class_problems` and `inheritance.assigment_problems`).
+- Compiled and tested all solutions against sample inputs and boundary cases.
+- Pushed solutions to feature/week_6.
+
+**Next Session Plan:**
+- Continue with the next Java programming session (Week 7).
+
+**Issues Faced:**
+- None. All 10 solutions compiled and tested cleanly with exact expected outputs.
+
+## Date: 01-11-2026
+
+**Today's Work:**
 - Completed Session 5 (Week 5: Access Modifiers, Encapsulation & Object Modeling) Java programming questions.
 - Solved class problems and assignment problems:
   - 5 Class Problems in `encapsulation.class_problems`:
