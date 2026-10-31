@@ -4,6 +4,33 @@ Semester 3 projects, assignments, and programming practice work.
 ## Date: 01-11-2026
 
 **Today's Work:**
+- Completed Session 9 (Week 9: Data Structures - Arrays, Hashing, Two Pointers, Sliding Window, Binary Search) Java programming questions.
+- Solved class problems and assignment problems:
+  - 5 Class Problems in `data_structures.class_problems`:
+    - `LibraryCatalogLookup.java`: Implemented binary search on pre-sorted book records by ISBN in O(log n) time.
+    - `WarehouseGridSummary.java`: Traversed 2D warehouse layout calculating total inventory and locating maximum item bin coordinates in O(m * n) time.
+    - `PairWithTargetSum.java`: Detected target sum pairs using optimal HashSet complement lookup in O(n) time and O(n) space.
+    - `PairWithTargetSumTwoPointers.java`: Evaluated algorithmic trade-offs comparing O(n) HashSet complement search against O(n log n) sorting + Two Pointers.
+    - `ContainerWithMostWater.java`: Implemented container water maximization using the Two Pointers technique in O(n) time and O(1) space.
+  - 5 Assignment Problems in `data_structures.assigment_problems`:
+    - `ClassTopperFinder.java`: Analyzed 2D student marks matrix to find topper with tie-breaking for smallest row index in O(m * n) time.
+    - `MergeTokenQueues.java`: Merged two sorted token lists preserving duplicates using Two Pointers in O(m + n) time without re-sorting.
+    - `MostPopularCanteenOrder.java`: Counted canteen orders using HashMap frequency tracking and first-occurrence tie resolution in O(n) time.
+    - `HotWeatherAlertWindows.java`: Counted qualifying consecutive k-hour weather alert blocks using Sliding Window in O(n) time.
+    - `TicketPriceSlotFinder.java`: Found ticket price slot and insertion positions using Binary Search in O(log n) time.
+- Organized Java files into topic-based packages (`data_structures.class_problems` and `data_structures.assigment_problems`).
+- Compiled and tested all solutions against sample inputs and boundary cases.
+- Pushed solutions to feature/week_9.
+
+**Next Session Plan:**
+- Continue with the next Java programming session (Week 10).
+
+**Issues Faced:**
+- None. All 10 solutions compiled and tested cleanly with exact expected outputs.
+
+## Date: 01-11-2026
+
+**Today's Work:**
 - Completed Session 8 (Week 8: Object-Oriented Design & System Modeling) Java programming questions.
 - Solved class problems and assignment problems:
   - 5 Class Problems in `object_oriented_design.class_problems`:
