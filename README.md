@@ -12,13 +12,13 @@ Semester 3 projects, assignments, and programming practice work.
     - `StudentClubRegistrationManagement.java`: Developed student club registration system preventing duplicates by overriding `equals()` and `hashCode()` strictly on student roll number.
     - `ClassMarksGridAnalysis.java`: Processed 2D grid of student marks to compute individual totals, formatted subject averages, and identified class topper.
     - `PayrollRegisterSystem.java`: Implemented polymorphic payroll system for FullTime, PartTime, and Intern staff, generating payslips, total payout, and top earner.
-  - 5 Assignment Problems in `linked_list.assigment_problems` (and mirrored in `linked_list.assignment_problems`):
+  - 5 Assignment Problems in `linked_list.assignment_problems`:
     - `PriorityTokenInsertion.java`: Implemented custom singly linked list with `addFirst` (O(1)), `addLast` (O(n)), and `insertAt` (O(n)) token insertion operations without `java.util.LinkedList`.
     - `CancelledOrdersCleanup.java`: Implemented in-place order code deletion via `removeAll(Node head, int code)` in O(n) time and O(1) space.
     - `ReverseTheQueue.java`: Reversed singly linked queue in place using three-pointer pointer reversal in O(n) time and O(1) space without allocating new nodes.
     - `TrainCoachesBothWays.java`: Built doubly linked list for train coaches with bidirectional traversal (`printForward`, `printBackward`) and O(1) node unlinking after O(n) search.
     - `RoundRobinGameTurns.java`: Implemented circular singly linked list with tail reference to model round-robin game turns wrapping seamlessly in O(1) add and O(k) turn simulation.
-- Organized Java files into clean topic-based packages (`linked_list.class_problems`, `linked_list.assigment_problems`, and `linked_list.assignment_problems`).
+- Organized Java files into clean topic-based packages (`linked_list.class_problems` and `linked_list.assignment_problems`).
 - Compiled and verified all solutions using `javac` with exact matching to all specification samples.
 - Pushed solutions to feature/week_10.
 
