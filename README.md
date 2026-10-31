@@ -4,6 +4,33 @@ Semester 3 projects, assignments, and programming practice work.
 ## Date: 01-11-2026
 
 **Today's Work:**
+- Completed Session 6 (Week 6: Access Modifiers, Encapsulation & Object Modeling) Java programming questions.
+- Solved class problems and assignment problems:
+  - 5 Class Problems in `encapsulation.class_problems`:
+    - `MovieTicketVisibilityChecker.java`: Validated Java visibility rules for SAME_CLASS, SAME_PACKAGE, and DIFFERENT_PACKAGE across access levels with batch summarization.
+    - `SubclassTicketAccess.java`: Modeled cross-package inheritance rules distinguishing SUBCLASS_DIFFERENT_PACKAGE_OWN_TYPE (allowed) and SUBCLASS_DIFFERENT_PACKAGE_PARENT_TYPE (denied) for protected access.
+    - `CineScreen.java`: Enforced constructor-time boundary validation rejecting non-positive total seats, with silent rejection on out-of-bounds bookSeat and cancelBooking transitions.
+    - `MovieBookingProfile.java`: Implemented a standard JavaBean with public no-arg constructor, `this()` constructor chaining, and a write-only OTP property without a getter.
+    - `BookingReceipt.java`: Achieved true immutability via defensive copying of seat numbers in and out, with-style mutation (`withUpdatedSeat`), and null-safe nightly settlement batch aggregation using `instanceof`.
+  - 5 Assignment Problems in `encapsulation.assigment_problems`:
+    - `MembershipFieldReachChecker.java`: Classified field visibility for LibraryMember fields and produced modifier-grouped summary breakdown across access attempts.
+    - `ReferenceDeskSubclassReach.java`: Handled 5 access contexts with an early-exit scanner identifying the very first denied access attempt.
+    - `BookInventory.java`: Encapsulated private total and available copy counts with boundary-checked, silent-rejection checkout and checkin operations.
+    - `LibraryMember.java`: Implemented JavaBean conventions with a write-once `membershipId` property and a write-only, one-way transformed `securityAnswer` property.
+    - `LoanReceipt.java`: Constructed immutable loan receipts with defensive array copying, with-style bookId corrections, static initialization block in `CirculationLedger`, and null-safe batch circulation processing using `instanceof`.
+- Organized Java files into topic-based packages (`encapsulation.class_problems` and `encapsulation.assigment_problems`).
+- Compiled and tested all solutions against sample inputs and boundary cases.
+- Pushed solutions to feature/week_6.
+
+**Next Session Plan:**
+- Continue with the next Java programming session (Week 7).
+
+**Issues Faced:**
+- None. All 10 solutions compiled and tested cleanly with exact expected outputs.
+
+## Date: 01-11-2026
+
+**Today's Work:**
 - Completed Session 4 (Week 4: Constructors and Java Keywords) Java programming questions.
 - Solved class problems and assignment problems:
   - 5 Class Problems in `constructors_and_keywords.class_problems`:
