@@ -4,6 +4,33 @@ Semester 3 projects, assignments, and programming practice work.
 ## Date: 01-11-2026
 
 **Today's Work:**
+- Completed Session 4 (Week 4: Constructors and Java Keywords) Java programming questions.
+- Solved class problems and assignment problems:
+  - 5 Class Problems in `constructors_and_keywords.class_problems`:
+    - `LibraryBook.java`: Implemented `this()` constructor chaining ensuring default PENDING status for unconfirmed ISBNs.
+    - `Employee.java`: Resolved parameter/field naming collisions in constructors and `raiseSalary()` using the `this` keyword.
+    - `LateFeeAccount.java`: Locked fee calculation and summary printing using `final` methods while skipping on-time accounts.
+    - `SrmStudent.java`: One-time setup of college and academic year metadata using a `static` initialization block.
+    - `FeeAccount.java`: Dispatched hostel vs day-scholar payment processing in a batch loop using `instanceof` with account counters.
+  - 5 Assignment Problems in `constructors_and_keywords.assigment_problems`:
+    - `Participant.java`: Overloaded constructors with `this(...)` chaining to assign default "Unassigned" team names for solo hackathon entries.
+    - `Item.java`: Resolved naming clashes with `this` keyword in constructor and batch `restock()` method.
+    - `ParkingTicket.java`: Enforced non-overridable fee formula using `final` methods with skip logic for on-time vehicles.
+    - `MembershipCard.java`: One-time library name and validity loading using a `static` block across batch student card creation.
+    - `Payment.java`: Replayed closing-time payments using `instanceof` type checking for 2% card processing fees and tracked total collected.
+- Organized Java files into topic-based packages.
+- Compiled and tested the solutions.
+- Pushed solutions to feature/week_4.
+
+**Next Session Plan:**
+- Continue with the next Java programming session (Week 5).
+
+**Issues Faced:**
+- None. All 10 solutions compiled and tested cleanly with expected sample outputs.
+
+## Date: 01-11-2026
+
+**Today's Work:**
 - Completed Session 3 (Week 3) Java programming questions.
 - Solved class problems and assignment problems:
   - 5 Class Problems in `object_oriented_programming.class_problems`:
