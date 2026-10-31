@@ -4,6 +4,33 @@ Semester 3 projects, assignments, and programming practice work.
 ## Date: 01-11-2026
 
 **Today's Work:**
+- Completed Session 3 (Week 3) Java programming questions.
+- Solved class problems and assignment problems:
+  - 5 Class Problems in `object_oriented_programming.class_problems`:
+    - `PlacementRecord.java`: Student placement record tracking with custom constructor and formatted printing.
+    - `MessWallet.java`: Encapsulated hostel mess wallet with controlled topUp, overdraft-preventing deduct, and read-only balance.
+    - `Course.java`: Overloaded course constructor chaining via `this(...)` with total credit calculation.
+    - `IdCard.java`: Reference copying verification demonstrating identity (`==`) vs independent objects.
+    - `Student.java`: Class design correctly separating instance fields from static fields and class-level methods.
+  - 5 Assignment Problems in `object_oriented_programming.assigment_problems`:
+    - `BookInventory.java`: Object array of book inventory records replacing parallel arrays with formatted entry display.
+    - `PayrollAccount.java`: Encapsulated payroll account managing basic salary, positive bonus crediting, and percentage tax deduction.
+    - `EmployeeProfile.java`: Overloaded constructor chaining via `this(...)` initializing permanent and intern profiles.
+    - `HallTicket.java`: Shared reference mutation demonstrating that multiple references point to the same memory object.
+    - `CompanyEmployee.java`: Static company name and static employee counter incremented uniformly across object instantiations.
+- Organized Java files into topic-based packages.
+- Compiled and tested the solutions.
+- Pushed solutions to feature/week_3.
+
+**Next Session Plan:**
+- Continue with the next Java programming session (Week 4).
+
+**Issues Faced:**
+- None. All 10 solutions compiled and tested cleanly with expected sample outputs.
+
+## Date: 01-11-2026
+
+**Today's Work:**
 - Completed Session 2 Java programming questions.
 - Solved class problems and assignment problems:
   - 5 Class Problems in `string.class_problems`:
