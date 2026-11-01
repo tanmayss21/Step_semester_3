@@ -4,6 +4,38 @@ Semester 3 projects, assignments, and programming practice work.
 ## Date: 01-11-2026
 
 **Today's Work:**
+- Completed Session 11 (Week 11: Sorting Algorithms & Linked List Practice) Java programming questions.
+- Solved class problems and assignment problems:
+  - 10 Class Problems in `sorting_algorithms.class_problems`:
+    - `PrintCircularSinglyLinkedList.java`: Traversed circular singly linked list using a do-while loop without null checks, handling empty list with a newline.
+    - `InsertAtTailDoublyLinkedList.java`: Appended node to the tail of a doubly linked list from head reference with proper prev/next linking.
+    - `RemoveFirstKNodesSinglyLinkedList.java`: Removed first k nodes by advancing head pointer, returning null when k >= list length.
+    - `DeleteNthNodeSinglyLinkedList.java`: Deleted node at 1-based index n, handling head deletion (n=1) and middle node unlinking.
+    - `SplitSinglyLinkedListInHalf.java`: Split singly linked list into two halves using fast and slow pointers, placing extra middle node in first half for odd lengths.
+    - `ReverseFirstKNodesSinglyLinkedList.java`: Reversed only the first k nodes in place and reattached remaining nodes in original relative order.
+    - `CountNodesSinglyLinkedList.java`: Iteratively counted total nodes in a singly linked list in O(n) time.
+    - `CheckIfSinglyLinkedListIsEmpty.java`: Evaluated whether a list is empty via head null check in O(1) time.
+    - `InsertAtEndCircularSinglyLinkedList.java`: Inserted node at logical end of circular singly linked list maintaining circularity.
+    - `DeleteLastNodeDoublyLinkedList.java`: Detached last node of a doubly linked list from head reference with prev/next cleanups.
+  - 5 Assignment Problems in `sorting_algorithms.assignment_problems`:
+    - `NoticeBoardShuffle.java`: Implemented Bubble Sort with early termination tracking passes and swaps in O(n) best / O(n^2) worst time and O(1) space (Stable).
+    - `HackathonRegistrationDesk.java`: Implemented Insertion Sort on Team array shifting strictly larger teams to preserve registration tie order in O(1) space (Stable).
+    - `AttendanceDisorderScore.java`: Counted disorder pairs (inversions) using divide-and-conquer Merge Sort in O(n log n) time and O(n) space (Stable).
+    - `PlacementCutoff.java`: Found k-th highest mark using QuickSelect with Lomuto partitioning in average O(n) time and O(1) space (Unstable).
+    - `ContestLeaderboard.java`: Generated descending marks leaderboard (100 down to 0) using Counting Sort in O(n + 101) time and space preserving submission order for ties (Stable).
+- Organized Java files into clean topic-based packages (`sorting_algorithms.class_problems` and `sorting_algorithms.assignment_problems`).
+- Compiled and verified all solutions using `javac` with exact matching to all specification samples.
+- Pushed solutions to feature/week_11.
+
+**Next Session Plan:**
+- Continue with the next Java programming session (Week 12).
+
+**Issues Faced:**
+- None. All 15 solutions compiled and tested cleanly with exact expected outputs.
+
+## Date: 01-11-2026
+
+**Today's Work:**
 - Completed Session 10 (Week 10: Linked Lists & Data Structures Practice) Java programming questions.
 - Solved class problems and assignment problems:
   - 5 Class Problems in `linked_list.class_problems`:
